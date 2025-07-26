@@ -8,6 +8,7 @@ import {
   FaInstagram,
 } from 'react-icons/fa';
 import './Hero.css';
+import profileImage from '../assets/icon/me-Icon.jpg';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -78,8 +79,20 @@ const Hero = () => {
           >
             <div className="profile-card">
               <div className="profile-avatar">
-                <div className="avatar-placeholder">
-                  <span>TK</span>
+                <div
+                  className="avatar-placeholder"
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                  }}
+                >
+                  <img
+                    src={profileImage}
+                    alt="Aldenir dos Santos"
+                    style={{ borderRadius: '50%' }}
+                    marginLeft="20px"
+                  />
                 </div>
               </div>
               <div className="profile-info">
@@ -119,7 +132,7 @@ const Hero = () => {
           </a>
         </motion.div>
 
-        <motion.button
+        {/* <motion.button
           className="scroll-down"
           onClick={scrollToAbout}
           initial={{ opacity: 0 }}
@@ -128,7 +141,7 @@ const Hero = () => {
           whileHover={{ y: 5 }}
         >
           <FaArrowDown />
-        </motion.button>
+        </motion.button> */}
       </div>
     </section>
   );

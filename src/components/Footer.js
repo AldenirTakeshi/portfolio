@@ -42,7 +42,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3>Takeshi</h3>
+            <h3>Aldenir dos Santos</h3>
             <p>
               Desenvolvedor Full Stack apaixonado por criar soluções digitais
               inovadoras e experiências excepcionais.

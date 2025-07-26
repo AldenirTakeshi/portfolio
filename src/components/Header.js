@@ -45,7 +45,7 @@ const Header = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <h2>Aldenir dos Santos</h2>
+          <h2 onClick={() => scrollToSection('home')}>Início</h2>
         </motion.div>
 
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>

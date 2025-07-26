@@ -1,4 +1,4 @@
-# 🚀 Portfólio Takeshi
+# 🚀 Portfólio Aldenir dos Santos
 
 Um portfólio profissional moderno e responsivo desenvolvido com React, apresentando habilidades, projetos e informações de contato de forma elegante e interativa.
 
@@ -123,9 +123,10 @@ npm install -g gh-pages
 gh-pages -d build
 ```
 
+<!--
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes. -->
 
 ## 🤝 Contribuição
 
@@ -137,9 +138,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 ## 📞 Contato
 
-- **Email**: takeshi@example.com
-- **LinkedIn**: [Seu LinkedIn]
-- **GitHub**: [Seu GitHub]
+- **Email**: aldenirtakeshi@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/aldenir-dos-santos-060a51300/
+- **GitHub**: https://github.com/AldenirTakeshi
 
 ---
 
